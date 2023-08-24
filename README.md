@@ -9,9 +9,8 @@
 <li>Figma</li>
 </ul>
 
-<p>
-  <a href="https://diegoscavone.github.io/nlw-copa/" target="_blank">Visite o site</a>
-</p>
+<p>💻 Visite o Projeto </p>
+<a href="https://diegoscavone.github.io/nlw-copa/" target="_blank">Clique Aqui</a>
 
 <p>📝 Licença</p>
 <p>Esse projeto está sob a licença MIT.</p>
