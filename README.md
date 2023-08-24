@@ -10,7 +10,7 @@
 </ul>
 
 <p>
-  <a href="https://diegoscavone.github.io/nlw-copa/">Visite o site</a>
+  <a href="https://diegoscavone.github.io/nlw-copa/" target="_blank">Visite o site</a>
 </p>
 
 <p>📝 Licença</p>
