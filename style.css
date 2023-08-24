@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --text-color: white;
+  --swtich-color: #373D98; 
+  --bg-url: url(./assets/bg-explorer.svg);
+  --stroke-color:  rgba(255,255,255,0.5);
+  --surface-color: rgba(255,255,255,0.1);
+  --surface-color-hover: rgba(255,255,255,0.05);
+  --highlight-color: rgba(255,255,255,0.2);
+}
+
+body * {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: linear-gradient(150deg, #0f2b05, #000);
+  height: 100vh;
+  text-align: center;
+}
+
+header {
+  padding: 75px 0;
+}
+
+.card {
+  display: inline-block;
+  width: 354px;
+  height: 508px;
+  background: var(--bg-url);
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(-100px);
+  animation: appear .4s forwards;
+  transition:.1s ease-in;
+}
+
+.card > img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 100px 100px 110px 100px;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+.info {
+  color: var(--text-color);
+  text-align: left;
+  margin-left: 70px;
+}
+
+.info h1 {
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.info p {
+  font-size: 14px;
+  line-height: 160%;
+}
+
+.fade{
+  opacity: .1;
+}
+
+
+@keyframes appear{
+  to{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
