@@ -10,7 +10,7 @@
 </ul>
 
 <p>💻 Visite o Projeto </p>
-<a href="https://diegoscavone.github.io/nlw-copa/" target="_blank">Clique Aqui</a>
+<p><a href="https://diegoscavone.github.io/nlw-copa/" target="_blank">Clique Aqui</a></p>
 
 <p>📝 Licença</p>
 <p>Esse projeto está sob a licença MIT.</p>
